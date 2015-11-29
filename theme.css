@@ -7,6 +7,14 @@ body {
   padding: 30px;
 }
 
+#MC {
+  background-color: white;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+
 h1 {
   font-style: normal;
   text-align: center;
@@ -89,7 +97,6 @@ img {
 }
 
 table {
-  border-collapse: collapse;
   margin-top: 30px;
   border-color: white;
   background-color: white;
@@ -100,6 +107,22 @@ table {
   text-align: left;
   margin-left: auto;
   margin-right: auto;
+}
+
+#RSC {
+  width: 80%;
+  height: 80%;
+  padding: 10px;
+  text-align: center;
+}
+
+#Ptext {
+  margin: 10px;
+  color: gray;
+  width: 70%;
+  height: 70%;
+  padding: 10px;
+  
 }
 
 #projects ul {
@@ -130,3 +153,4 @@ table {
   background-color: black;
   display: block;
 }
+
