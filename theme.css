@@ -50,7 +50,7 @@ img {
   padding: 10px;
 }
 
-#menu {
+nav {
   width: auto;
   height:35px;
   font-size: 16px;
@@ -60,24 +60,24 @@ img {
   margin-top: 1%;
 }
 
-#menu ul {
+nav ul {
   height: auto;
   padding: 8px 0px;
   margin: 0px;
 }
 
-#menu li {
+nav li {
   display: inline;
   padding: 20px;
 }
 
-#menu a {
+nav a {
   text-decoration: none;
   color: white;
   padding: 8px 8px 8px 8px;
 }
 
-#menu a:hover {
+nav a:hover {
   color: black;
   background-color: #AFC6D2;
 }
@@ -102,7 +102,7 @@ header {
 }
 
 #footer {
-  position: absolute;
+  position: relative;
   bottom: 0px;
   width: 100%;
   height: 40px;
@@ -111,17 +111,27 @@ header {
   color: white;
 }
 
-table {
-  margin-top: 30px;
+.contact {
+  text-decoration: none;
   border-color: white;
   background-color: white;
   border-radius: 10px;
-  padding: 10px;
   width:auto;
+  max-width:50%;
   height:80%;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
+}
+
+.contact ul {
+  list-style-type: none;
+}
+
+span {
+  font-weight: bold;
+  padding: 5px;
+  
 }
 
 #RSC {
