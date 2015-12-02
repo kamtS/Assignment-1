@@ -13,7 +13,9 @@ body {
   border-radius: 10px;
   display: block;
   margin: auto;
-  width: 70%;
+  width: 60%;
+  max-width: 800px;
+  height: auto;
 }
 
 h1 {
