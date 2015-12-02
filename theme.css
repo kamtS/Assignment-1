@@ -37,13 +37,14 @@ footer {
   font-style: normal;
 }
 
+/*
 img {
   margin-top:30px;
   margin-bottom:30px;
   margin-left:auto;
   margin-right:auto;
 }
-
+*/
 #DJ img {
   width: 30%;
   max-width: 300px;
@@ -84,14 +85,11 @@ nav a:hover {
 }
 
 #bio p {
-  padding: 30px;
-  width: 80%;
-  text-align: center;
-  font-weight: normal;
+  padding: 15px;
   margin-left: auto;
   margin-right: auto;
   line-height: 22px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 header {
@@ -136,37 +134,46 @@ header {
   
 }
 
-
-
 #RSC {
+  background-color: white;
+  width: auto;
+  max-width: 550px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+}
+
+/*#RSC {
   width: 80%;
   height: 80%;
   padding: 10px;
   text-align: center;
+  margin: auto;
 }
-
+*/
 #Ptext {
-  margin: 10px;
+  margin: auto;
   color: gray;
-  width: 70%;
+  width: auto;
   height: 70%;
   padding: 10px;
+  text-align: center;
   
 }
 
 #projects ul {
-  height: auto;
   padding: 0px 0px;
   margin: auto;
   background-color: white;
-  width: 300px;
+  width: 50%;
+  max-width: 400px;
   text-align: center;
 }
 
 #projects li {
   display: block;
-  padding: 10px;
-  border: 2px;
+  padding: 20px;
+  border: 1px; 1px; 2px;
   border-style:solid;
   border-color:black;
 }
